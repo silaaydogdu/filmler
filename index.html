@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sıla AyDoğdu | 232511071</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+</head>
+<body>
+
+<div id="shell">
+  <div id="header">
+    <h1 id="logo"><a href="#">Sıla Aydoğdu</a></h1>
+
+    <div id="navigation">
+      <ul>
+        <li><a class="active" href="#">Anasayfa</a></li>
+
+        <li><a href="contact.html">İletişim</a></li>
+
+      </ul>
+    </div>
+    <div id="sub-navigation">
+      <ul>
+        <li><a href="#" onclick="getMovieAll()">Hepsini Göster</a></li>
+        <li><a href="#" onclick="getCategoryMovie('starwars')">Star Wars</a></li>
+        <li><a href="#" onclick="getCategoryMovie('tlotr')">The Lord of the Rings</a></li>
+        <li><a href="#" onclick="getCategoryMovie('other')" >Diğer</a></li>
+        <li><a href="#" onclick="getIMDB()" >IMDb</a></li>
+
+      </ul>
+      <div id="search">
+        <form action="#" method="get" accept-charset="utf-8">
+          <label for="search-field">Film Ara</label>
+          <input type="text" name="search field" value="" id="search-field" class="blink search-field"  />
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div id="content">
+      <div class="w3-content w3-display-container" id="slider">
+
+
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+
+      <div class="box" id="movieList">
+        <div class="head">
+          <h2>Son Eklenenler</h2>
+          <p class="text-right"><a href="#" id="clock">.</a></p>
+        </div>
+        <div id="imdb"></div>
+
+
+        <div  id="movieListContent">
+
+          </div>
+
+
+        <div class="cl">&nbsp;</div>
+      </div>
+
+    </div>
+
+    <div class="cl">&nbsp;</div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+
+</html>
